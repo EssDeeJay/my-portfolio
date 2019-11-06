@@ -10,7 +10,7 @@ exports.handler = async (event, context) => {
 const getResponse = myxml => ({
   statusCode: 200,
   headers: {
-    'Content-Type': 'text/xml',
+    'Content-Type': 'application/json',
   },
   body: myxml,
 });
