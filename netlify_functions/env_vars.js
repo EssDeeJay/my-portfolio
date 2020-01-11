@@ -12,7 +12,7 @@ const getResponse = myxml => ({
   headers: {
     'Content-Type': 'application/json',
   },
-  body: myxml,
+  body: response,
 });
 
 exports.handler = function(event, context, callback) {
